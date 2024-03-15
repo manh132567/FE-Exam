@@ -1,0 +1,10 @@
+{
+    "locales": ["en", "vn"],
+    "defaultLocale": "en",
+    "localeDetection": false,
+    "pages": {
+      "*": ["home"],
+      "/projects": ["projects"]
+    }
+  }
+  
