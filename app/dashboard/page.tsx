@@ -57,7 +57,7 @@ function Page() {
                 <td className="px-6 py-4">{project.project_domain}</td>
                 <td className="px-6 py-4">
                   <div>
-                    {project.license_use.map((li) => (
+                    {project.license_use.map((li: any) => (
                       <div key={li.license_type}><span className="font-[600]">{li.license_type}:</span> {li.libraries.join(",")}</div>
                     ))}
                   </div>
